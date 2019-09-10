@@ -1,18 +1,25 @@
-
 /* CSS Document */
 
 /* CENTER */
 .centered {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .centered2 {
+    width:35%;
+    height:25%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.emoji {
     width:25%;
     height:25%;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -38,4 +45,3 @@
     font-family:monospace;
     font-size: 25px;
 }
-
