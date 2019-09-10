@@ -1,0 +1,139 @@
+
+* {
+  box-sizing: border-box;
+}
+
+  body {
+    background-color: black;
+    }
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/**********/
+.overlay {
+  background-image:url(1.png);
+  float: left;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.column:hover .overlay {
+  opacity: 1;
+}
+
+/**********/
+.overlay2 {
+  background-image:url(2.png);
+  float: left;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.column:hover .overlay2 {
+  opacity: 1;
+}
+
+/**********/
+
+.overlay3 {
+  background-image:url(3.png);
+  float: left;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.column:hover .overlay3 {
+  opacity: 1;
+}
+
+/**********/
+
+.overlay4 {
+  background-image:url(4.png);
+  float: left;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.column:hover .overlay4 {
+  opacity: 1;
+}
+
+/**********/
+
+.overlay5 {
+  background-image:url(5.png);
+  float: left;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.column:hover .overlay5 {
+  opacity: 1;
+}
+
+/**********/
+
+.text {
+  width: 100%;
+  color: white;
+    font-family: monospace;
+  font-size: 50px;
+    padding: 20px;
+    text-align: center;
+ 
+}
